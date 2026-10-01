@@ -228,3 +228,6 @@ kbd { font-family: var(--mono); font-size: .75rem; background: var(--bg-3); bord
 .arch-node:hover { border-color: var(--accent); transform: translateY(-2px); }
 .arch-link { width: 1px; height: 1.6rem; background: repeating-linear-gradient(to bottom, var(--muted) 0 4px, transparent 4px 8px); background-size: 1px 8px; animation: flow 1s linear infinite; }
 @keyframes flow { to { background-position: 0 8px; } }
+
+.foot-link { color: var(--muted); text-underline-offset: 3px; transition: color .2s; }
+.foot-link:hover { color: var(--accent); }
